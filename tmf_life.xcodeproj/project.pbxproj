@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261B883C15267C9F00B03D1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B883B15267C9F00B03D1C /* UIKit.framework */; };
+		261B883E15267C9F00B03D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B883D15267C9F00B03D1C /* Foundation.framework */; };
+		261B884015267C9F00B03D1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B883F15267C9F00B03D1C /* CoreGraphics.framework */; };
+		261B884615267C9F00B03D1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261B884415267C9F00B03D1C /* InfoPlist.strings */; };
+		261B884815267C9F00B03D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B884715267C9F00B03D1C /* main.m */; };
+		261B884C15267C9F00B03D1C /* lifeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B884B15267C9F00B03D1C /* lifeAppDelegate.m */; };
+		261B884F15267C9F00B03D1C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261B884D15267C9F00B03D1C /* MainStoryboard_iPhone.storyboard */; };
+		261B885215267C9F00B03D1C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261B885015267C9F00B03D1C /* MainStoryboard_iPad.storyboard */; };
+		261B885515267C9F00B03D1C /* lifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B885415267C9F00B03D1C /* lifeViewController.m */; };
+		261B885D15267C9F00B03D1C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B885C15267C9F00B03D1C /* SenTestingKit.framework */; };
+		261B885E15267C9F00B03D1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B883B15267C9F00B03D1C /* UIKit.framework */; };
+		261B885F15267C9F00B03D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261B883D15267C9F00B03D1C /* Foundation.framework */; };
+		261B886715267C9F00B03D1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261B886515267C9F00B03D1C /* InfoPlist.strings */; };
+		261B886A15267C9F00B03D1C /* tmf_lifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261B886915267C9F00B03D1C /* tmf_lifeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261B886015267C9F00B03D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261B882E15267C9F00B03D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261B883615267C9F00B03D1C;
+			remoteInfo = tmf_life;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261B883715267C9F00B03D1C /* tmf_life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tmf_life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261B883B15267C9F00B03D1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		261B883D15267C9F00B03D1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		261B883F15267C9F00B03D1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		261B884315267C9F00B03D1C /* tmf_life-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tmf_life-Info.plist"; sourceTree = "<group>"; };
+		261B884515267C9F00B03D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261B884715267C9F00B03D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		261B884915267C9F00B03D1C /* tmf_life-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tmf_life-Prefix.pch"; sourceTree = "<group>"; };
+		261B884A15267C9F00B03D1C /* lifeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lifeAppDelegate.h; sourceTree = "<group>"; };
+		261B884B15267C9F00B03D1C /* lifeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lifeAppDelegate.m; sourceTree = "<group>"; };
+		261B884E15267C9F00B03D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		261B885115267C9F00B03D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		261B885315267C9F00B03D1C /* lifeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lifeViewController.h; sourceTree = "<group>"; };
+		261B885415267C9F00B03D1C /* lifeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lifeViewController.m; sourceTree = "<group>"; };
+		261B885B15267C9F00B03D1C /* tmf_lifeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tmf_lifeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		261B885C15267C9F00B03D1C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		261B886415267C9F00B03D1C /* tmf_lifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tmf_lifeTests-Info.plist"; sourceTree = "<group>"; };
+		261B886615267C9F00B03D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261B886815267C9F00B03D1C /* tmf_lifeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tmf_lifeTests.h; sourceTree = "<group>"; };
+		261B886915267C9F00B03D1C /* tmf_lifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmf_lifeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261B883415267C9F00B03D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B883C15267C9F00B03D1C /* UIKit.framework in Frameworks */,
+				261B883E15267C9F00B03D1C /* Foundation.framework in Frameworks */,
+				261B884015267C9F00B03D1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261B885715267C9F00B03D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B885D15267C9F00B03D1C /* SenTestingKit.framework in Frameworks */,
+				261B885E15267C9F00B03D1C /* UIKit.framework in Frameworks */,
+				261B885F15267C9F00B03D1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261B882C15267C9F00B03D1C = {
+			isa = PBXGroup;
+			children = (
+				261B884115267C9F00B03D1C /* tmf_life */,
+				261B886215267C9F00B03D1C /* tmf_lifeTests */,
+				261B883A15267C9F00B03D1C /* Frameworks */,
+				261B883815267C9F00B03D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261B883815267C9F00B03D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261B883715267C9F00B03D1C /* tmf_life.app */,
+				261B885B15267C9F00B03D1C /* tmf_lifeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261B883A15267C9F00B03D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261B883B15267C9F00B03D1C /* UIKit.framework */,
+				261B883D15267C9F00B03D1C /* Foundation.framework */,
+				261B883F15267C9F00B03D1C /* CoreGraphics.framework */,
+				261B885C15267C9F00B03D1C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		261B884115267C9F00B03D1C /* tmf_life */ = {
+			isa = PBXGroup;
+			children = (
+				261B884A15267C9F00B03D1C /* lifeAppDelegate.h */,
+				261B884B15267C9F00B03D1C /* lifeAppDelegate.m */,
+				261B884D15267C9F00B03D1C /* MainStoryboard_iPhone.storyboard */,
+				261B885015267C9F00B03D1C /* MainStoryboard_iPad.storyboard */,
+				261B885315267C9F00B03D1C /* lifeViewController.h */,
+				261B885415267C9F00B03D1C /* lifeViewController.m */,
+				261B884215267C9F00B03D1C /* Supporting Files */,
+			);
+			path = tmf_life;
+			sourceTree = "<group>";
+		};
+		261B884215267C9F00B03D1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261B884315267C9F00B03D1C /* tmf_life-Info.plist */,
+				261B884415267C9F00B03D1C /* InfoPlist.strings */,
+				261B884715267C9F00B03D1C /* main.m */,
+				261B884915267C9F00B03D1C /* tmf_life-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		261B886215267C9F00B03D1C /* tmf_lifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				261B886815267C9F00B03D1C /* tmf_lifeTests.h */,
+				261B886915267C9F00B03D1C /* tmf_lifeTests.m */,
+				261B886315267C9F00B03D1C /* Supporting Files */,
+			);
+			path = tmf_lifeTests;
+			sourceTree = "<group>";
+		};
+		261B886315267C9F00B03D1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261B886415267C9F00B03D1C /* tmf_lifeTests-Info.plist */,
+				261B886515267C9F00B03D1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261B883615267C9F00B03D1C /* tmf_life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261B886D15267C9F00B03D1C /* Build configuration list for PBXNativeTarget "tmf_life" */;
+			buildPhases = (
+				261B883315267C9F00B03D1C /* Sources */,
+				261B883415267C9F00B03D1C /* Frameworks */,
+				261B883515267C9F00B03D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tmf_life;
+			productName = tmf_life;
+			productReference = 261B883715267C9F00B03D1C /* tmf_life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		261B885A15267C9F00B03D1C /* tmf_lifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261B887015267C9F00B03D1C /* Build configuration list for PBXNativeTarget "tmf_lifeTests" */;
+			buildPhases = (
+				261B885615267C9F00B03D1C /* Sources */,
+				261B885715267C9F00B03D1C /* Frameworks */,
+				261B885815267C9F00B03D1C /* Resources */,
+				261B885915267C9F00B03D1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261B886115267C9F00B03D1C /* PBXTargetDependency */,
+			);
+			name = tmf_lifeTests;
+			productName = tmf_lifeTests;
+			productReference = 261B885B15267C9F00B03D1C /* tmf_lifeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261B882E15267C9F00B03D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = life;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 261B883115267C9F00B03D1C /* Build configuration list for PBXProject "tmf_life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 261B882C15267C9F00B03D1C;
+			productRefGroup = 261B883815267C9F00B03D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261B883615267C9F00B03D1C /* tmf_life */,
+				261B885A15267C9F00B03D1C /* tmf_lifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261B883515267C9F00B03D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B884615267C9F00B03D1C /* InfoPlist.strings in Resources */,
+				261B884F15267C9F00B03D1C /* MainStoryboard_iPhone.storyboard in Resources */,
+				261B885215267C9F00B03D1C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261B885815267C9F00B03D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B886715267C9F00B03D1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		261B885915267C9F00B03D1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261B883315267C9F00B03D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B884815267C9F00B03D1C /* main.m in Sources */,
+				261B884C15267C9F00B03D1C /* lifeAppDelegate.m in Sources */,
+				261B885515267C9F00B03D1C /* lifeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261B885615267C9F00B03D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B886A15267C9F00B03D1C /* tmf_lifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261B886115267C9F00B03D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261B883615267C9F00B03D1C /* tmf_life */;
+			targetProxy = 261B886015267C9F00B03D1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		261B884415267C9F00B03D1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261B884515267C9F00B03D1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		261B884D15267C9F00B03D1C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261B884E15267C9F00B03D1C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		261B885015267C9F00B03D1C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261B885115267C9F00B03D1C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		261B886515267C9F00B03D1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261B886615267C9F00B03D1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261B886B15267C9F00B03D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		261B886C15267C9F00B03D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261B886E15267C9F00B03D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tmf_life/tmf_life-Prefix.pch";
+				INFOPLIST_FILE = "tmf_life/tmf_life-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		261B886F15267C9F00B03D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tmf_life/tmf_life-Prefix.pch";
+				INFOPLIST_FILE = "tmf_life/tmf_life-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		261B887115267C9F00B03D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tmf_life.app/tmf_life";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tmf_life/tmf_life-Prefix.pch";
+				INFOPLIST_FILE = "tmf_lifeTests/tmf_lifeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		261B887215267C9F00B03D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tmf_life.app/tmf_life";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tmf_life/tmf_life-Prefix.pch";
+				INFOPLIST_FILE = "tmf_lifeTests/tmf_lifeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261B883115267C9F00B03D1C /* Build configuration list for PBXProject "tmf_life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261B886B15267C9F00B03D1C /* Debug */,
+				261B886C15267C9F00B03D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261B886D15267C9F00B03D1C /* Build configuration list for PBXNativeTarget "tmf_life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261B886E15267C9F00B03D1C /* Debug */,
+				261B886F15267C9F00B03D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		261B887015267C9F00B03D1C /* Build configuration list for PBXNativeTarget "tmf_lifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261B887115267C9F00B03D1C /* Debug */,
+				261B887215267C9F00B03D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261B882E15267C9F00B03D1C /* Project object */;
+}
